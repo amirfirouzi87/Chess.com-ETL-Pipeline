@@ -49,4 +49,4 @@ Now that the data is extracted, we need to fix the formats.
 
 Here is the dashboard I created using Power BI. After choosing a player, you can see some statistics suchs as number of games played, win rate and top 5 openings as black and white.
 
-![alt text](image.png)
+![alt text](image-1.png)
