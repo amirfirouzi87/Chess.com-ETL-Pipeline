@@ -1,6 +1,6 @@
 # Chess Data Pipeline: API to Power BI ♟️
 
-This is a complete data engineering project that grabs game data from the **Chess.com API**, processes it in **Databricks**, and transforms it with **dbt** to make it ready for visualization in **Power BI**, with the main focus on **dbt**.
+This is a complete data engineering project that grabs games data from the **Chess.com API**, processes it in **Databricks**, and transforms it with **dbt** to make it ready for visualization in **Power BI**, with the main focus on **dbt**.
 
 
 ## How it Works
