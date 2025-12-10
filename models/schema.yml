@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stage1_extracted_cols
+    columns:
+      - name: eco_code
+        data_tests:
+          - not_null
+  - name: stage2_filtered_mod_cols
+    columns:
+      - name: game_result_of_white
+        data_tests:
+          - accepted_values:
+              values: ['Win', 'Loss', 'Draw']
+      - name: game_result_of_black
+        data_tests:
+          - accepted_values:
+              values: ['Win', 'Loss', 'Draw']
